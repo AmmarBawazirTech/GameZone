@@ -19,11 +19,9 @@
     <Folder Include="Areas\Owner\Controller\" />
     <Folder Include="Areas\Owner\Services\" />
     <Folder Include="Areas\Owner\ViewModelModel\" />
-    <Folder Include="Areas\Owner\Views\" />
     <Folder Include="Areas\Admin\Controller\" />
     <Folder Include="Areas\Admin\Services\" />
     <Folder Include="Areas\Admin\ViewModelModel\" />
-    <Folder Include="Areas\Admin\Views\" />
     <Folder Include="Data\Attribute\" />
     <Folder Include="Helpers\" />
     <Folder Include="ViewModel\" />

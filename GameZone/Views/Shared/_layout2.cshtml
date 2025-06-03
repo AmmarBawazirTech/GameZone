@@ -15,7 +15,7 @@
         <nav class="navbar navbar-expand-xl navbar-light text-center py-3 fixed-top">
             <div class="container bg-primary rounded-pill">
 
-                <a class="navbar-brand text-center ml-1" href="/Home/Index">
+                <a class="navbar-brand text-center ml-1" href="index.html">
                     <h1 style="margin-top: 0.3vw;" class="text-white">Game Zone</h1>
                 </a>
 
@@ -26,7 +26,7 @@
                         </li>
 
                         <li class="nav-item ">
-                            <a class="nav-link text-white" href="#services">Services</a>
+                            <a class="nav-link text-white" href="/Home/UserIndex/#services">Services</a>
                         </li>
 
                         <li class="nav-item ">
@@ -59,12 +59,22 @@
                             </ul>
                         </li>
                     </ul>
-                    <a href="/Accounts/Register" class="btn btn-primary ms-2 ms-lg-2 rounded-pill">Sign Up</a>
-                    <a href="/Accounts/Login" class="btn btn-outline-primary rounded-pill">Login</a>
+
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <a style="margin-right: 1vw;" class="fw-bold text-white" asp-action="UserReservationLog">Reservation Log</a>
+                    <a style="margin-right:1vw ;" asp-action="AccountDetails"><img width="40vw" src="~/Assets/Images/user.png"></a>
+                    <span style="margin-right: 1vw;" class="text-white fw-bold fs-6">USERNAME</span>
+                    <a style="margin-right: 0.5vw;" href="/Home/Index"><img width="40vw" src="~/Assets/Images/logout.png"></a>
                 </div>
+
             </div>
+
         </nav>
     </header>
+
+
     <!-- /navigation -->
 
     <div class="container">
