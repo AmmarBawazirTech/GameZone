@@ -23,7 +23,6 @@
     <Folder Include="Areas\Admin\Services\" />
     <Folder Include="Areas\Admin\ViewModelModel\" />
     <Folder Include="Data\Attribute\" />
-    <Folder Include="Helpers\" />
     <Folder Include="ViewModel\" />
     <Folder Include="Services\" />
   </ItemGroup>
